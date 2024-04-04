@@ -5,10 +5,9 @@ module.exports = {
   theme: {
     extend: {
       colors: {
-        primary: "#00040f",
-        secondary: "#00f6ff",
-        dimWhite: "rgba(255, 255, 255, 0.7)",
-        dimBlue: "rgba(9, 151, 124, 0.1)",
+        muted_gray : "#B7B098",
+        white : "#FFFFFF",
+        black : "#1E201F"
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
@@ -21,6 +20,16 @@ module.exports = {
       md: "1060px",
       lg: "1200px",
       xl: "1700px",
+    },
+    //adjust font weights as needed
+    fontWeight: {
+      normal: 400, 
+      bold: 700,    
+    },
+    fontSize: {
+      small: "14px",
+      medium: "24px",
+      large: "40px",
     },
   },
   plugins: [],
