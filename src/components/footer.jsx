@@ -1,6 +1,3 @@
-// Footer.jsx
-import * as React from "react";
-
 import instagram from '../assets/instagram.png'
 import facebook from '../assets/facebook.png'
 import twitter from '../assets/twitter.png'
@@ -31,7 +28,7 @@ const Footer = () => {
                                 </div>
                                 {hours.map((item, index) => (
                                     <div key={index} className="mt-4 text-small">
-                                        {item.day}: <span className=""> {item.hours} </span>
+                                        {item.day}: <span className="font-normal"> {item.hours} </span>
                                     </div>
                                 ))}
                             </div>

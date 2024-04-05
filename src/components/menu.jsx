@@ -1,5 +1,3 @@
-// MenuSection.jsx
-import React from 'react';
 import coffeetea_menu from '../assets/coffeetea_menu.png';
 import pastries_menu from '../assets/pastries_menu.png';
 
@@ -7,7 +5,7 @@ const Menu = () => {
     return (
         <div className="flex font-poppins justify-center items-center px-16 pb-20 w-full bg-black max-md:px-5 max-md:max-w-full">
             <div className="flex flex-col items-start py-20 mb-2.5 w-full max-w-[1050px] max-md:max-w-full">
-                <div className="mt-20 ml-20 text-small font-bold tracking-wide leading-6 text-muted_gray max-md:mt-10">
+                <div className="mt-0 ml-20 text-small font-bold tracking-wide leading-6 text-muted_gray max-md:mt-10">
                     View our Menu
                 </div>
                 <div className="mt-2.5 ml-20 text-large font-bold tracking-wide text-white">

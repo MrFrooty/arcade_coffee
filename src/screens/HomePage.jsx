@@ -1,5 +1,3 @@
-import * as React from "react";
-
 import Navbar from '../components/navbar';
 import About from '../components/about'
 import Menu from '../components/menu'
@@ -17,3 +15,4 @@ const Home = () => {
 }
 
 export default Home;
+

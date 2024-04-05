@@ -1,5 +1,3 @@
-// AboutSection.jsx
-import React from 'react';
 import { about } from '../constants/index';
 
 const About = () => {

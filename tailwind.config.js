@@ -1,13 +1,14 @@
-/** @type {import('tailwindcss').Config} */
+// tailwind.config.js
 module.exports = {
   content: ["./index.html", "./src/**/*.{js,jsx}"],
   mode: "jit",
   theme: {
     extend: {
       colors: {
-        muted_gray : "#B7B098",
-        white : "#FFFFFF",
-        black : "#1E201F"
+        muted_gray: "#B7B098",
+        white: "#FFFFFF",
+        black: "#1E201F",
+        black_gradient: "linear-gradient(144.39deg, #ffffff -278.56%, #6d6d6d -78.47%, #11101d 91.61%)",
       },
       fontFamily: {
         poppins: ["Poppins", "sans-serif"],
@@ -21,10 +22,9 @@ module.exports = {
       lg: "1200px",
       xl: "1700px",
     },
-    //adjust font weights as needed
     fontWeight: {
-      normal: 400, 
-      bold: 700,    
+      normal: 400,
+      bold: 700,
     },
     fontSize: {
       small: "14px",
